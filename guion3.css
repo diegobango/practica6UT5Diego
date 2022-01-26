@@ -1,0 +1,171 @@
+* {
+    margin:0px;
+	padding:0px;
+}
+body{
+    margin: 0px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    background-color:#ACAAAA;
+}
+header{
+        width: 100%;
+        height: 87px;
+        background-color:#4C627E;
+        color:white ;
+        margin-bottom: 1px;
+}
+header h1{
+    text-align: center;
+
+}
+header p{
+position: absolute;
+right: 100px;
+}
+footer{
+width: 100%;
+height: 95px;
+clear: both;
+background-color:#486284 ;
+color: white;	
+display: block;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+nav {
+    width: 15%;
+    background-color: #223A5B;
+    color: white;
+    display: inline-block;
+}
+nav ol{
+    margin-left: -15px;
+    margin-top: 0px;
+    line-height: 22px;
+}			
+#contenedor {
+    margin:auto;
+    width:550px;
+    font-family: Verdana, Geneva, sans-serif;
+    border: 2px solid right;
+}		
+ul {
+    list-style:none;
+}
+.nav > li {
+    float:left;
+    border-right: solid white 2px;
+}
+.nav li a {
+    background-color:#2E85D2;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color:#162992;
+}
+			
+.nav li ul {
+    display:none;
+    position:absolute;
+    width:140px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+			}
+.interfaces{
+height: 400px;
+margin:auto;
+display: block;
+margin-top:20px;
+margin-bottom: 20px;
+}
+footer{
+    width: 100%;;
+    margin:auto;
+}
+.copyright{
+width: 49%;
+height: 100px;
+float: right;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+#main{
+    width: 90%;
+    margin:auto;
+
+}
+#main h2{
+    width: 100%;
+    background-color:#C0C0C0;
+    text-decoration: underline;
+}
+.asignatura{
+    text-align: center;
+}
+.curso{
+    text-align: center;
+}
+.nombre{
+text-align: right;
+margin-right: 40px;
+
+}
+.usabilidades{
+height: 200px;
+display: block;
+margin-top:5px
+}
+.directriz{
+height: 200px;
+display: block;
+margin-top:5px    
+}
+.beneficio{
+height: 200px;
+display: block;
+margin-top:5px   
+}
+.posicionamientos{
+height: 200px;
+display: block;
+margin-top:5px
+}
+.logo2{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+.logo2 img{
+    width: 40px;
+    padding: 0 5px;
+ /*   filter: brightness(1);
+    mix-blend-mode: multiply;*/
+}
+.logo1{
+    position: absolute;
+    left: 7%;
+    top: 0;
+}
+.logo1 img{
+    width: 90px;
+    padding: 0 5px;
+    transform: scale(.7); 
+ /*   filter: brightness(1);
+    mix-blend-mode: multiply;*/
+}
